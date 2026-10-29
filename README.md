@@ -8,6 +8,15 @@
 
 ---
 
+## Launch Video Showcase (Narrated by Kokoro AI)
+
+[![BrandGuard AI Launch Video Poster](brag-output/brag-poster.png)](brag-output/brag.mp4)
+
+> 🎬 **Watch Video**: [Download or Play `brag-output/brag.mp4`](brag-output/brag.mp4)  
+> *Audio: High-definition voiceover generated via Kokoro-82M (`am_adam`) + Sascha Ende Lo-Fi beat + UI sound effects.*
+
+<video src="brag-output/brag.mp4" controls width="100%" poster="brag-output/brag-poster.png"></video>
+
 ## Architecture & Core Capabilities
 
 BrandGuard AI replaces subjective, slow copy reviews and hallucination-prone "brand scores" with a deterministic + evidence-gated workflow: no marketing claim can ever be marked verified unless an approved primary source excerpt is cited verbatim alongside it, and no human approval can survive a post-approval edit.

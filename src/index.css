@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #FAFAFA;
+  --color-surface: #FFFFFF;
+  --color-subtle: #F4F4F5;
+  --color-muted-border: #E4E4E7;
+  --color-strong-border: #D4D4D8;
+
+  --color-ink: #09090B;
+  --color-ink-secondary: #52525B;
+  --color-ink-tertiary: #A1A1AA;
+
+  --color-supported: #059669;
+  --color-supported-tint: #ECFDF5;
+  --color-supported-border: #6EE7B7;
+
+  --color-unverified: #D97706;
+  --color-unverified-tint: #FFFBEB;
+  --color-unverified-border: #FCD34D;
+
+  --color-conflict: #DC2626;
+  --color-conflict-tint: #FEF2F2;
+  --color-conflict-border: #FCA5A5;
+
+  --color-deterministic: #2563EB;
+  --color-deterministic-tint: #EFF6FF;
+  --color-deterministic-border: #93C5FD;
+
+  --color-invalidated: #DC2626;
+  --color-invalidated-tint: #FEF2F2;
+  --color-invalidated-border: #F87171;
+
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+:root {
+  --bg-paper: #FAFAFA;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F4F4F5;
+  --border-muted: #E4E4E7;
+  --border-strong: #D4D4D8;
+  
+  --text-ink: #09090B;
+  --text-secondary: #52525B;
+  --text-tertiary: #A1A1AA;
+
+  --supported: #059669;
+  --unverified: #D97706;
+  --conflict: #DC2626;
+  --deterministic: #2563EB;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-paper);
+  color: var(--text-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible, high-contrast focus rings */
+:focus-visible {
+  outline: 2px solid var(--text-ink) !important;
+  outline-offset: 1px !important;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dedicated print stylesheet */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

@@ -1,11 +1,11 @@
-﻿AI generates marketing claims in seconds. But who guarantees they don't break the law?
+﻿AI generates marketing copy in seconds. But who guarantees it complies with regulatory law?
 
-Introducing BrandGuard AI — deterministic pre-publication governance without the hallucination.
+Meet BrandGuard AI — pre-publication brand governance without the hallucination.
 
-0ms AST Lexical Linter catching prohibited therapeutic words (FDA 21 CFR §101)
-Epistemic Verbatim Proof Gate grounding claims against clinical trial dossiers
-Immutable SHA-256 Approval Locks with automated revocation upon post-approval tampering
-Tamper-evident cryptographic certificate export
+Instant lexical analysis catching prohibited and high-risk regulatory claims
+Source-anchored verification grounding marketing statements against verified proof
+Tamper-evident approval locks with automated revocation on unapproved post-edits
+Cryptographically verifiable compliance certificate export
 
 Live App: https://brandguard-ai-970.netlify.app
 GitHub: https://github.com/Rudra4451/brandguard-ai

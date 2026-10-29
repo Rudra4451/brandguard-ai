@@ -8,12 +8,12 @@
 
 ---
 
-## Launch Video Showcase (Narrated by Kokoro AI)
+## Project Overview Video
 
 [![BrandGuard AI Launch Video Poster](brag-output/brag-poster.png)](brag-output/brag.mp4)
 
-> 🎬 **Watch Video**: [Download or Play `brag-output/brag.mp4`](brag-output/brag.mp4)  
-> *Audio: High-definition voiceover generated via Kokoro-82M (`am_adam`) + Sascha Ende Lo-Fi beat + UI sound effects.*
+> 🎬 **Watch Introduction Video**: [Play `brag-output/brag.mp4`](brag-output/brag.mp4)  
+> *A quick 20-second walkthrough introducing BrandGuard AI: real-time deterministic compliance, source-anchored claim verification, and tamper-evident approvals.*
 
 <video src="brag-output/brag.mp4" controls width="100%" poster="brag-output/brag-poster.png"></video>
 
